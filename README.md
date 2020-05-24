@@ -13,9 +13,9 @@ Apps that utilize [mailjet's python API wrapper](https://github.com/mailjet/mail
  - Add a sender domain or Address
  - Retrieve your API Key and Secret from "SMTP and SEND API Settings"
 
-## How to use Django app
+## How to run Django app
 
  - Scroll all the way to the bottom of mailjet-apiv3-python-apps/django_app/django_app/settings.py and set the mailjet variables (MAILJET_SENDER, MAILJET_API_KEY and MAILJET_API_SECRET).
- - Run 'python manage.py makemigrations', 'python manage.py migrate' and finally, 'python manage.py runserver'. 
- - Go to 'localhost:8000' in your browser and you should see a 'Django Rest Framework page'.
+ - Run 'python manage.py runserver'. 
+ - Go to 'localhost:8000' in your browser and you should see 'Django REST Framework' at the top of the page.
  - You can test the Mailjet sender by registering a user. A "Welcome" message should arrive in your inbox shortly after clicking "Submit".
